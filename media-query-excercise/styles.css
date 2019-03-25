@@ -1,0 +1,96 @@
+/*
+
+  Example media query:
+
+  @media (max-width: 1000px) {
+    .box1 {
+      width: 60%;
+    }
+  }
+
+  /* At 768px And below do the following: */
+/*   @media (max-width: 768px) {
+
+  } */
+
+  /* At 400px And below do the following: */
+/*   @media (max-width: 400px) {
+
+  } */
+
+
+
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: aqua;
+}
+
+.box2 {
+  background: azure;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+/* At 1000px and below do the following */
+@media (max-width: 1000px) {
+  .box {
+    width: 80%;
+  }
+
+  .box1 {
+    background-color: blue;
+  }
+
+  .box2 {
+    background-color: green;
+  }
+
+  .box3 {
+    background-color: red;
+  }
+}
+
+ /* At 768px And below do the following: */
+  @media (max-width: 768px) {
+    .box {
+      width: 60%;
+    }
+
+    .box1 {
+      background-color: teal;
+      width: 400px;
+    }
+
+    .box2 {
+      background-color: black;
+    }
+
+    .box3 {
+      background-color: gray;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .box {
+      width: 60%
+    }
+
+    .box1 {
+      background-color: purple;
+    }
+
+    .box2 {
+      background-color: black;
+    }
+
+    .box3 {
+      background-color: gray;
+    }
+  }
